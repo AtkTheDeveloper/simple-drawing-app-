@@ -1,4 +1,4 @@
-  window.addEventListener("click", event => {
+  window.addEventListener("mousemove", event => {
     let dot = document.createElement("div");
     dot.className = "dot";
     dot.style.left = (event.pageX - 4) + "px";
